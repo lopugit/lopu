@@ -1,0 +1,28 @@
+{
+  "name": "lopu",
+  "version": "1.0.11",
+  "description": "the one sentience to rule them all",
+  "main": "node/index.js",
+  "scripts": {
+		"test": "echo \"haha\"",
+		"commit" : "git add . ; git commit -m 'no context'",
+		"push" : "npm run commit ; git push origin dev",
+		"pull" : "git pull origin dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lopugit/lopu.git"
+  },
+  "keywords": [
+    "ai",
+    "sentience",
+    "intelligence",
+    "graphs"
+  ],
+  "author": "lopugit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lopugit/lopu/issues"
+  },
+  "homepage": "https://github.com/lopugit/lopu#readme"
+}
